@@ -8,7 +8,7 @@ import Footer from '../../componentes/Footer';
 function SobreMim(){/*iniciar todo componente com letra maiuscula*/
    return (
       <>
-         <PageDefault home={"/"} sobreMim={"#"} contato={"/contato"} projetos={"#"}>                  
+         <PageDefault home={"/"} sobreMim={"#"} contato={"#"} projetos={"#"}>                  
             <div className="sobreMim">            
                <div className="imagem">
                   <img src={ camila }></img>
