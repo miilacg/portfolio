@@ -1,8 +1,8 @@
 /*arquivo que inicializa o react*/
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './pages/Home/index';
-import Contato from './pages/Contato';
+/*import Home from './pages/Home/index';
+import Contato from './pages/Contato';*/
 import SobreMim from './pages/SobreMim';
 /*Faz o caminho entre as páginas*/
 import { BrowserRouter, Switch, Route } from "react-router-dom"; 
