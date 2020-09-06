@@ -14,7 +14,7 @@ function SobreMim(){/*iniciar todo componente com letra maiuscula*/
                   <img src={ camila }></img>
                </div>
                <div className="texto">
-                  <Apresentacao /> 
+                  <h1>Olá</h1>
                   <p className="primeiro">Tenho 24 anos, sou estudante de Ciência da Computação na UFV e apaixonada por tecnologia.</p>
                   <p>Minha paixão pelo desenvolvimento web começou quando comecei a implementar meu trabalho de conclusão de curso. Depois eu me especializei mais na área fazendo um curso de Front-end na Gama.</p>
                   <p>Eu posso transformar seu<strong> </strong>negócio em um site, representando sua marca de maneira inteligente e um ótimo relacionamento com os clientes.&nbsp;</p>
@@ -22,6 +22,7 @@ function SobreMim(){/*iniciar todo componente com letra maiuscula*/
                </div>
             </div>         
          </PageDefault>
+         
          <Footer />
       </>
    );
