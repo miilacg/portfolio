@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.sobreMim{
+    display: flex;
+    flex-direction: row;
+    margin: 0vw 0vw 3vw 0vw;
+}
+
+.sobreMim img{
+    width: auto;
+    height: 80vh;
+}
+
+.sobreMim .texto{
+    margin: auto 0vw auto 2vw;
+    align-self: center;
+}
+
+.sobreMim p{
+    color: #181818;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.3vw;
+    line-height: 2.2vw;
+    text-align: left;
+    margin-bottom: 1.7vw;
+}
+
+.sobreMim p.primeiro{
+    margin-top: 0vw;
+}
+
+.sobreMim p.ultimo{
+    margin-bottom: 0vw;
+}

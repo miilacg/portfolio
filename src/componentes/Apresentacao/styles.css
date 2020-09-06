@@ -1,0 +1,22 @@
+.Apresentacao{
+    width: 100%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.Apresentacao h1{
+    font-size: 2.5vw;
+    margin: .6vw auto 2vw auto;
+    color: black;
+}
+
+.Apresentacao h3{
+    font-size: 2vw;
+    margin: 0vw auto;
+    font-weight: normal;
+    color: black;
+}
+
