@@ -2,15 +2,12 @@ import styled from 'styled-components';
 
 
 export const FooterBase = styled.footer`
-  background: #007bff;
-  box-shadow: 0px -10px 1vw 1px rgba(0, 0, 0, 0.2);
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 13px;
-  padding-bottom: 15px;
+  background: var(--backgroundMenu);
+  /*box-shadow: 0px -10px 1vw 1px rgba(0, 0, 0, 0.2);*/
+  padding: 16px 16px 19px 16px;
   color: var(--white);
   text-align: center;
-  font-size: 1.13vw;
+  font-size: 13px;
 
   z-index: 100;
   position: fixed;
@@ -23,21 +20,38 @@ export const FooterBase = styled.footer`
   }
 `;
 
-export const Direitos = styled.p`
-  margin: 1.2vw 0vw 0.1vw 0vw;
-  font-size: 1vw;
+export const Direitos = styled.p` 
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: .02vw;
+  color: #F6F6F6;
+  margin: 0px;
 `;
 
 export const Texto = styled.p`
-  margin: .5vw 0vw;
+  margin: 0px 0vw 16px 0vw;
+  letter-spacing: .07vw;
+  font-style: normal;
+  font-weight: normal;  
+  color: #F6F6F6;
 `;
 
 export const Link = styled.a`
-  margin: .5vw 0vw;
   text-decoration: none;
+  font-size: 1.13vw;
+  letter-spacing: .07vw;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  color: #F6F6F6;
 `;
 
 export const Span = styled.span`
-  margin: 0vw .4vw;
+  margin: 0vw 0.1vw 0vw .4vw;
+  font-style: normal;
   font-weight: bold;
+  font-size: 1.4vw;
+  letter-spacing: 0em;
+  color: #F6F6F6;
 `;
