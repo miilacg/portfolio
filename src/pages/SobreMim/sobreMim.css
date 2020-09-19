@@ -5,38 +5,46 @@
     display: flex;
     flex-direction: row;
     margin: 0vw;
+    padding: 2.5vh 0px;
     /*  
-    position: absolute;
+    position: relative;
     top: 50%;
     transform: translate(0, -43%);*/
 }
 
 .sobreMim img{
     width: auto;
+    height: auto;
     max-width: 45vw;
     max-height: 71vh;
 }
 
-h1{
-    font-size: 2.2vw;
-    margin: .6vw auto 1.5vw auto;
-    color: black;
-    font-family: 'Kumbh Sans', sans-serif;
-}
-
 .sobreMim .texto{
-    margin: auto 0 auto 2vw;
+    margin: auto 0 auto 2.9vw;
     align-self: center;
 }
 
+h1{
+    color: var(--laranja);
+    font-size: 2.5vw;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    margin: .6vw auto 1.5vw auto;
+}
+
 .sobreMim p{
-    color: #181818;
+    color: var(--cinza);
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 1.3vw;
-    line-height: 2.2vw;
-    text-align: left;
-    margin-bottom: 1.2vw;
+    font-size: 1.5vw;  
+    margin-bottom: 1vw;
     text-align: justify;
+    font-style: normal;
+    font-weight: normal;
+
+    display: flex;
+    align-items: center;
 }
 
 .sobreMim p.primeiro{
