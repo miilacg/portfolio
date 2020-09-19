@@ -26,7 +26,7 @@ export const Direitos = styled.p`
 
 export const Texto = styled.p`
   margin: 0px 0vw 16px 0vw;
-  font-size: 13px
+  font-size: 12px;
   letter-spacing: .07vw;
   font-style: normal;
   font-weight: normal;  
@@ -35,7 +35,7 @@ export const Texto = styled.p`
 
 export const Link = styled.a`
   text-decoration: none;
-  font-size: 13px;
+  font-size: 12px;
   letter-spacing: .07vw;
   font-family: Roboto;
   font-style: normal;
