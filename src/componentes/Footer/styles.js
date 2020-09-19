@@ -23,7 +23,6 @@ export const FooterBase = styled.footer`
 export const Direitos = styled.p` 
   font-size: 13px;
   font-style: normal;
-  font-weight: 500;
   letter-spacing: .02vw;
   color: #F6F6F6;
   margin: 0px;
