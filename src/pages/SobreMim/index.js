@@ -1,13 +1,14 @@
 import React from 'react';
 import PageDefault from '../../componentes/PageDefault';
-import camila from '../../imagens/camila.jpg';
-import './sobreMim.css'
 import Footer from '../../componentes/Footer';
+import camila from '../../imagens/camila.jpg';
+import '../../../src/index.css';
+import './sobreMim.css';
 
 function SobreMim(){/*iniciar todo componente com letra maiuscula*/
    return (
       <>
-         <PageDefault home={"/"} sobreMim={"#"} contato={"#"} projetos={"#"}>                  
+         <PageDefault home={ "/" } sobreMim={ "#" } curriculo={ "#" } contato={ "#" } projetos={ "#" }>                  
             <div className="sobreMim">            
                <div className="imagem">
                   <img src={ camila }></img>

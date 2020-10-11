@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const FooterBase = styled.footer`
   background: var(--backgroundMenu);
   /*box-shadow: 0px -10px 1vw 1px rgba(0, 0, 0, 0.2);*/
-  padding: 13px 16px 19px 16px;
+  padding: 13px 16px 15px 16px;
   color: var(--white);
   text-align: center;
   font-size: 13px;
@@ -25,7 +25,7 @@ export const Direitos = styled.p`
 `;
 
 export const Texto = styled.p`
-  margin: 0px 0vw 16px 0vw;
+  margin: 0px 0vw 13px 0vw;
   font-size: 12px;
   letter-spacing: .07vw;
   font-style: normal;
