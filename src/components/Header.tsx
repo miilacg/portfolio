@@ -1,13 +1,6 @@
-import { useContext } from 'react';
-import { BodyContext } from '../contexts/BodyContext';
-
 import styles from '../styles/components/Header.module.css';
 
 export default function Header() {
-   const { 
-      trocaPage,
-   } = useContext(BodyContext);
-
    return (     
       <nav className={ styles.menu }>
          <a href="#" className={ styles.logo }>
