@@ -1,0 +1,28 @@
+.footerBase {
+   background: var(--backgroundMenu);
+   padding: 1.125rem 1rem 1.1875rem 1rem;
+   color: #F6F6F6;
+   text-align: center;
+   font-size: .8125rem;
+
+   z-index: 100;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+}
+
+.texto {
+   margin: 0 0 .669375rem 0; 
+   font-weight: 400;
+}
+
+.texto .span {
+   font-weight: 700;
+   font-size: .9375rem;
+   margin: 0 .3rem;
+}
+
+.direitos {
+   margin: 0;
+}
