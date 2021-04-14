@@ -1,0 +1,45 @@
+:root{
+  --backgroundMenu: #515070;
+  --backgroundPagina: #F6F6F6;
+  --text: #3D3C3C;
+
+  --cinza6: rgb(246, 246, 246);
+  --salmao: rgb(255, 187, 145);
+  --laranja: rgb(255, 142, 110);
+  --roxao: rgb(81, 80, 112); 
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: var(--backgroundPagina);
+  --alturaLogo: 4.4375rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#root{
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  color: var(--laranja);
+  font-size: 2.5vw;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  margin: .6vw auto 1.5vw auto;
+}
