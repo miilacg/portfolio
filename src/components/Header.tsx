@@ -8,11 +8,11 @@ export default function Header() {
          </a>
 
          <div className={ styles.linksMenu }>
-            <a className={ styles.link } href="#" onClick={ trocaPage }>HOME</a>
-            <a className={ styles.link } href="#" onClick={ trocaPage }>SOBRE</a>
-            <a className={ styles.link } href="#" onClick={ trocaPage }>CURRÍCULO</a>
-            <a className={ styles.link } href="#" onClick={ trocaPage }>PROJETOS</a>
-            <a className={ styles.link } href="#" onClick={ trocaPage }>CONTATO</a>
+            <a className={ styles.link } href="#">HOME</a>
+            <a className={ styles.link } href="#">SOBRE</a>
+            <a className={ styles.link } href="#">CURRÍCULO</a>
+            <a className={ styles.link } href="#">PROJETOS</a>
+            <a className={ styles.link } href="#">CONTATO</a>
          </div>
       </nav>
    );
