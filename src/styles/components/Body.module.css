@@ -1,0 +1,8 @@
+.main {
+  background-color: var(--backgroundPagina);
+  color: white;
+  flex: 1;
+  padding-top: var(--alturaLogo);
+  padding-left: 9.2%;
+  padding-right: 9.2%;
+}
