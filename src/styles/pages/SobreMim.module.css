@@ -1,0 +1,42 @@
+.sobreMim{
+   display: flex;
+   flex-direction: row;
+   margin: 0vw;
+   padding: calc(var(--alturaLogo) + 3.6875rem) 3.5625rem 3.6875rem;
+}
+
+.sobreMim img{
+   width: auto;
+   height: auto;
+   max-width: 26.31625rem;
+   max-height: 28.75rem;
+}
+
+.sobreMim .texto{
+   margin: auto 0 auto 2.74625rem;
+   align-self: center;
+}
+
+.sobreMim h1{
+   font-family: 'Kulim Park', sans-serif;
+}
+
+.sobreMim p{
+   color: var(--cinza);
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-size: 1.3125rem;  
+   margin-bottom: .8125rem;
+   text-align: justify;
+   font-weight: normal;
+
+   display: flex;
+   align-items: center;
+}
+
+.sobreMim .texto p:first-child { 
+   margin-top: 0vw;
+}
+
+.sobreMim .texto p:last-child {
+   margin-bottom: 0vw;
+}
