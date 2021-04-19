@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --primary: #1506B0;
+  --black: #000000;
+  --blackLighter: #9E9E9E;
+  --grayLight: #F5F5F5;
+  --grayMedium: #e5e5e5; 
+  --white: #FFFFFF;
+  --frontEnd: #6BD1FF;
+  --backEnd: #00C86F;
+  --erro: #d40707;
+
+  --menuAntigo: rgb(0, 123, 255);
+  --backgroundMenu: #515070;
+  --backgroundPagina: #F6F6F6; /*#E9E9E7*/
+  --laranja: rgb(255, 142, 110);
+  --cinza: #3D3C3C;
+
+  /*cores 1*/
+  --roxo: rgb(215, 137, 215);
+  --roxo2: rgb(157, 101, 201);
+  --roxo3: rgb(93, 84, 164);
+  --roxo4: rgb(42, 61, 102);
+
+  /*cores 3*/
+  --pretoAzulado: rgb(70, 65, 89);
+  --azulMedio: rgb(108, 123, 149);
+  --azulClaro: rgb(139,186, 187);
+  --azulClarinho: rgb(199, 240, 219);
+
+  /*cores 4*/
+  --azulao: rgb(27, 38, 44);
+  --azul2: rgb(15, 76, 117);
+  --azul3: rgb(50, 130, 184);
+  --azul4: rgb(187, 225, 250);
+
+  /*cores 6*/
+  --cinza6: rgb(246, 246, 246);
+  --salmao: rgb(255, 187, 145);
+  --laranja: rgb(255, 142, 110);
+  --roxao: rgb(81, 80, 112);  
+
+  /*cores 7*/
+  --azulzinho: rgb(224, 236, 228);
+  --rosa: rgb(255, 75, 92);
+  --verde: rgb(5, 102, 116);
+  --azulMedio: rgb(102, 191, 191);
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0vw;
+  background-color: var(--backgroundPagina);
+  --alturaLogo: 71px;
+}
+
+a {
+  color: inherit;
+} 
+
+#root{
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  color: var(--laranja);
+  font-size: 2.5vw;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  margin: .6vw auto 1.5vw auto;
+}
