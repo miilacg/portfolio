@@ -1,47 +1,61 @@
 .menu{
-    width: 100%;
-    height: auto;
-    z-index: 100;
+   width: 100%;
+   height: auto;
+   z-index: 100;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 0vw 3% 0vw 2.1%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   padding: 0vw 3% 0vw 2.1%;
 
-    background: var(--backgroundMenu);
+   background: var(--backgroundMenu);
 }
 
 .menu a.logo{    
-    height: var(--alturaLogo);
-    margin: 0px;
+   height: var(--alturaLogo);
+   margin: 0px;
 }
 
 .menu img.logo{    
-    height: calc(.05rem + var(--alturaLogo));
-    margin: 0;
+   height: calc(.05rem + var(--alturaLogo));
+   margin: 0;
 }
 
 .link {
-    color: var(--backgroundPagina);
-    font-size: 1rem;
-    font-weight: 500;
-    text-decoration: none;
-    margin: 0vw .46875rem;             
+   cursor: pointer;
+   
+   margin: 0vw .46875rem;             
+
+   background: transparent;
+   border: none;
+
+   color: var(--backgroundPagina);
+   font-size: 1rem;
+   font-weight: 500;
+   text-decoration: none;
+}
+
+.link:focus {      
+   outline: none;
 }
 
 .link:first-child {
-    margin: 0 .46875rem 0 0;             
+   margin: 0 .46875rem 0 0;             
 }
 
 .link:last-child {
-    margin: 0 0 0 .46875rem;             
+   margin: 0 0 0 .46875rem;             
 }
 
 .link:hover{
-    color: var(--laranja);
+   color: var(--laranja);
+}
+
+.link:active{
+   color: var(--laranja);
 }
