@@ -22,6 +22,7 @@ html, body{
   overflow-x: hidden;
   background-color: var(--backgroundPagina);
   --alturaLogo: 4.4375rem;
+  color: var(--text);
 }
 
 a {

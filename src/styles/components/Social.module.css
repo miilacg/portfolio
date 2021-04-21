@@ -1,0 +1,23 @@
+.social {
+  width: auto;
+  height: auto;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 2.25rem;
+  bottom: 7.125rem;
+}
+
+.social .icon {
+  margin: 1.125rem 0;
+
+  font-size: 1.75rem;
+  color: var(--roxao);
+}
+
+.social .icon:first-child,
+.social .icon:last-child {
+  margin: 0;
+}
