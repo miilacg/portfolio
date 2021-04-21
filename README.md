@@ -1,3 +1,6 @@
+<p align="center">
+    <img alt="interface da home do portfólio" src="./public/imagens/interfaceInicial.png" width="80%">
+</p>
 
 ## 💻 Tecnologias
 
