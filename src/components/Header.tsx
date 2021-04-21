@@ -4,7 +4,7 @@ import styles from '../styles/components/Header.module.css';
 export default function Header({ href }) {
    const router = useRouter();    
    const link = {
-      color: router.asPath == href ? 'rgb(255, 142, 110)' : 'white'
+      color: router.asPath == href ? 'white' : 'white'
    }
    
 
@@ -19,7 +19,7 @@ export default function Header({ href }) {
             <a href="/SobreMim" className={ styles.link } style={ link }>SOBRE</a>
             <a href="/Curriculo" className={ styles.link }>CURRÍCULO</a>
             <a href="/Projetos" className={ styles.link }>PROJETOS</a>
-            <a href="/Contato" className={ styles.link }>CONTATO</a>
+            {/*<a href="/Contato" className={ styles.link }>CONTATO</a>*/}
          </div>
       </nav>
    );

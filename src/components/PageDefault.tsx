@@ -5,11 +5,9 @@ import Header from './Header';
 export default function PageDefault({ children, href }){  
   return (  
     <>
-      <Header href = { href }/>
+      <Header href = { href }/>      
       
-      <main>
-        { children }
-      </main>
+      { children }      
 
       <Footer />       
     </>        

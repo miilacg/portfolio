@@ -3,13 +3,11 @@ import Social from '../components/Social';
 
 import styles from '../styles/pages/Home.module.css';
 
-export default function Home() {
+export default function Curriculo() {
   return (  
-    <PageDefault href='/'>       
+    <PageDefault href='/Curriculo'>       
       <div className={ styles.texto }>
-        <h2>Eu sou</h2>      
-        <h1>Camila Guimarães</h1>
-        <h3>desenvolvedora web</h3>
+        <h1>Página em contrução</h1>
       </div>  
 
       <Social />      
