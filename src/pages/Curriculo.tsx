@@ -1,7 +1,7 @@
 import PageDefault from '../components/PageDefault';
 import Social from '../components/Social';
 
-import styles from '../styles/pages/Home.module.css';
+import styles from '../styles/pages/Home.module.scss';
 
 export default function Curriculo() {
   return (  

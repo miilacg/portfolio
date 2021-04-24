@@ -1,6 +1,6 @@
 import PageDefault from '../components/PageDefault';
 
-import styles from '../styles/pages/SobreMim.module.css';
+import styles from '../styles/pages/SobreMim.module.scss';
 
 export default function SobreMim() {
   return (
