@@ -2,24 +2,35 @@
     <img alt="interface da home do portfólio" src="./public/imagens/interfaceInicial.png" width="80%">
 </p>
 
+
+
+
 ## 💻 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- CSS
 - HTML
-- React
+- ReactJS
+- SCSS
 
 
-----------------------------------------------------------------------------------------------
 
 
-## 💻 Projeto
+## 🚀 Para executar:
 
-Criação do meu portfólio usando React.
+### Requisitos
+
+- Você vai precisar instalar o [Node.js](https://nodejs.org/en/download/) e o [Yarn](https://yarnpkg.com/) no seu projeto.
+
+* Clone o projeto
+* Instale as dependências com yarn
+* Inicie o projeto com yarn dev (para utilizar em modo de desenvolvimento)
 
 
-----------------------------------------------------------------------------------------------
+O aplicativo estará disponível para acesso em `http://localhost:3000`
+
+
+
 
 
 ## 🔖 Layout
