@@ -22,7 +22,7 @@
 }
 
 .menu img.logo{    
-   height: calc(.05rem + var(--alturaLogo));
+   height: var(--alturaLogo);
    margin: 0;
 }
 
@@ -59,3 +59,5 @@
 .link:active{
    color: var(--laranja);
 }
+
+

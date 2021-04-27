@@ -1,11 +1,9 @@
-import PageDefault from '../components/PageDefault';
 import Social from '../components/Social';
-
 import styles from '../styles/pages/Home.module.scss';
 
 export default function Home() {
   return (  
-    <PageDefault href='/'>       
+    <main>
       <div className={ styles.texto }>
         <h2>Eu sou</h2>      
         <h1>Camila Guimarães</h1>
@@ -13,6 +11,6 @@ export default function Home() {
       </div>  
 
       <Social />      
-    </PageDefault>                      
+    </main>
   );
 }
