@@ -3,7 +3,7 @@ import styles from '../styles/pages/Home.module.scss';
 
 export default function Home() {
   return (  
-    <main>
+    <main className={ styles.mainHome }>
       <div className={ styles.texto }>
         <h2>Eu sou</h2>      
         <h1>Camila Guimarães</h1>

@@ -3,10 +3,14 @@
   --backgroundPagina: #F6F6F6;
   --text: #3D3C3C;
 
-  --cinza6: rgb(246, 246, 246);
+  --cinza: rgb(246, 246, 246);
   --salmao: rgb(255, 187, 145);
   --laranja: rgb(255, 142, 110);
   --roxao: rgb(81, 80, 112); 
+
+
+  --alturaLogo: 4.4375rem;
+  --alturaFooter: 4.6875rem;
 }
 
 * {
@@ -21,7 +25,6 @@ html, body{
   margin: 0;
   overflow-x: hidden;
   background-color: var(--backgroundPagina);
-  --alturaLogo: 4.4375rem;
   color: var(--text);
 }
 
@@ -30,16 +33,27 @@ a {
   text-decoration: none;
 }
 
-#root{
-  min-height: calc(100vh - var(--bodyPaddingTop));
-  display: flex;
-  flex-direction: column;
-}
-
 h1{
   color: var(--laranja);
   font-size: 2.1875rem;
   font-style: normal;
   font-weight: bold;
   letter-spacing: 0.04rem;
+}
+
+main {
+  height: calc(100vh - var(--alturaLogo) - var(--alturaFooter));
+
+  background-color: var(--backgroundPagina);
+  margin-top: var(--alturaLogo);
+  margin-bottom: var(--alturaFooter);
+  padding-top: 3.6875rem;
+  padding-left: 4.2%;
+  padding-right: 4.2%;
+}
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 106.25%; //17px
+  }
 }

@@ -1,13 +1,6 @@
-import { useRouter } from 'next/router'
 import styles from '../styles/components/Header.module.scss';
 
-export default function Header() {
-   const router = useRouter();    
-   /*const link = {
-      color: router.asPath == href ? 'white' : 'white'
-   }*/
-   
-
+export default function Header() { 
    return (   
       <nav className={ styles.menu }>
          <a href="/" className={ styles.logo }>
