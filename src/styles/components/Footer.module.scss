@@ -1,7 +1,12 @@
 .footerBase {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: var(--alturaFooter);
+
    background: var(--backgroundMenu);
-   padding: 1.125rem 1rem 1.1875rem 1rem;
-   color: #F6F6F6;
+   color: var(--cinza);
    text-align: center;
    font-size: .8125rem;
 
