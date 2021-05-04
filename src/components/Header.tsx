@@ -10,7 +10,7 @@ export default function Header() {
          <div className={ styles.linksMenu }>
             <a href="/" className={ styles.link }>HOME</a>
             <a href="/SobreMim" className={ styles.link }>SOBRE</a>
-            <a href="/Curriculo" className={ styles.link }>CURRÍCULO</a>
+            {/*<a href="/Curriculo" className={ styles.link }>CURRÍCULO</a>*/}
             <a href="/Projetos" className={ styles.link }>PROJETOS</a>
             {/*<a href="/Contato" className={ styles.link }>CONTATO</a>*/}
          </div>
