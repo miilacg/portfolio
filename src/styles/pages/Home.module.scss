@@ -1,14 +1,19 @@
 .mainHome {
+  position: relative;;
   padding: 0;
 }
 
 .texto {
   display: flex;
   flex-direction: column;
-  margin: auto 0;
+  position: absolute;
+  top: 50%;
+
+  margin: auto;
+  width: 100%;
   height: auto;
 
-  transform: translate(0%, calc(50% + calc(1.5 * 1.75rem)));
+ transform: translate(0%, -50%);
 }
 
 .texto h1 {
