@@ -1,8 +1,10 @@
 .topico {
+  position: relative;
   margin-bottom: 1.25rem;
-
+  padding: 1.2rem 0;
+  
   h3 {
-    margin: .594375rem 0 0;
+    margin: 0;
 
     font-weight: 600;
     font-size: 1.5rem;
@@ -35,23 +37,15 @@
   }
 }
 
-.topico::after {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 1px;
-  top: 21px;
-  left: 0;
-  background-color: var(--roxo);
-}
+
 
 //barra vertical
 .topico::before {  
   content: '';
   position: absolute;
-  width: 1px;
+  width: 0.04rem;
   height: 100%;
   top: 0;
-  left: 0;
+  left: -1.875rem;
   background-color: var(--roxo);
 }
