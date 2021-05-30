@@ -1,0 +1,26 @@
+.mainProjetos {
+  font-family: 'IBM Plex Sans', sans-serif;  
+  font-style: normal;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 0.05em;
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+  }
+}
