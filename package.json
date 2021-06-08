@@ -9,7 +9,6 @@
     "server": "json-server projetos.json -w -d 750 -p 3333"
   },
   "dependencies": {
-    "@types/react-slick": "^0.23.4",
     "axios": "^0.21.1",
     "date-fns": "^2.22.1",
     "js-cookie": "^2.2.1",

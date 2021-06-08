@@ -1,5 +1,4 @@
-.mainProjetos {
-  font-family: 'IBM Plex Sans', sans-serif;  
+.mainProjects {
   font-style: normal;
 
   h1 {
@@ -22,5 +21,63 @@
     font-weight: 300;
     font-size: 1.5rem;
     letter-spacing: 0.05em;
+  }
+
+  section {
+    margin-top: 4.3125rem;
+    padding-bottom: calc(var(--alturaFooter) + 3.8125rem);
+  }
+
+  .project {
+    display: flex;
+    flex-direction: row;
+
+    .description {
+      width: 50%;
+      margin: 0 1.5625rem 0 0;
+
+      h3 {
+        font-family: 'IBM Plex Sans', sans-serif;  
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.9375rem;
+        text-align: justify;
+      }
+  
+      p {
+        font-family: 'IBM Plex Sans', sans-serif;  
+        font-weight: normal;
+        font-size: 1.125rem;
+        line-height: 1.6875rem;
+        text-align: justify;
+      }
+  
+      a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+
+        font-family: 'IBM Plex Sans', sans-serif;  
+        font-weight: normal;
+        font-size: 1.125rem;
+        line-height: 1.4375rem;
+        text-decoration-line: underline;
+  
+        color: var(--roxo);
+      }
+    }  
+    
+    .image {
+      display: flex;
+      align-items: center;      
+      margin: 0 auto 0 1.5625rem;
+
+      width: 50%;
+
+      img {
+        width: 100%;
+      }
+    }
   }
 }
