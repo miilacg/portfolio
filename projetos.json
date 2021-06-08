@@ -5,108 +5,60 @@
       "category": "Web",
       "title": "ONG Produzindo alegria",
       "description": " ",
-      "image": " ",
+      "languages": "CSS e HTML",
+      "image": "#",
       "url": "https://github.com/miilacg/ong-produzindoAlegria",
-      "publishedAt": "2021-01-22 16:35:40"
+      "publishedAt": "2020-02-14 16:35:40"
     },
     {
       "id": 2,
-      "category": "Mobile",
-      "title": "PlantManager",
-      "description": "",
-      "image": " ",
-      "url": "https://github.com/miilacg/nlw5/tree/main/plantManager",
-      "publishedAt": "2021-01-22 16:35:40"
+      "category": "Web",
+      "title": "Moveit",
+      "description": "<p>O move.it é um app que une a técnica de Pomodoro com a realização de exercícios físicos para quem passa muito tempo na frente do computador.</p><p>Esse projeto foi desenvolvido durante a trilha de React, na quarta edição da NLW.</p>",
+      "languages": "React com TypeScript e CSS",
+      "image": "#",
+      "url": "https://miilacg-moveit-n6ca2thbs-miilacg.vercel.app/",
+      "publishedAt": "2021-04-21 16:35:40"
     },
     {
       "id": 3,
       "category": "Web",
-      "title": "Teste Carbel",
-      "description": " ",
-      "image": " ",
-      "url": "https://github.com/miilacg/Teste-Carbel",
-      "publishedAt": "2021-01-22 16:35:40"
+      "title": "DSVendas",
+      "description": "<p>O DSVendas é uma aplicação para analisar o desempenho das suas vendas por diferentes perspectivas.</p>",
+      "languages": "Spring, Java, React com TypeScript, HTML e CSS",
+      "image": "https://raw.githubusercontent.com/miilacg/projeto-sds3/9ce6a7c4a6c0e587536a08f1e63c8b6613279328/frontend/src/assets/img/ds-dark.svg",
+      "url": "https://dsvendas-miilacg.netlify.app/",
+      "publishedAt": "2021-05-08 16:35:40"
     },
     {
       "id": 4,
-      "category": "Software",
-      "title": "Trabalhos da disciplina projeto e análise de algoritmos",
-      "description": " ",
-      "image": " ",
-      "url": "https://github.com/miilacg/TPS-PAA",
-      "publishedAt": "2021-01-22 16:35:40"
+      "category": "Mobile",
+      "title": "PlantManager",
+      "description": "<p>Plant Manager é um app para ajudar as pessoas a lembrarem de cuidar das plantas.</p>",
+      "languages": "Expo, React Native com TypeScript, SCSS e JavaScript",
+      "image": "https://raw.githubusercontent.com/miilacg/nlw5/main/plantManager/assets/logo-git.png",
+      "url": "https://github.com/miilacg/nlw5/tree/main/plantManager",
+      "publishedAt": "2021-06-04 16:35:40"
     },
     {
       "id": 5,
-      "category": "Outros",
-      "title": "Teste Afya",
-      "description": " ",
-      "image": " ",
-      "url": "https://github.com/miilacg/testeAfya",
-      "publishedAt": "2021-01-22 16:35:40"
+      "category": "Web",
+      "title": "Podcastr",
+      "description": "<p>Podcastr é uma plataforma para ouvirmos nossos podcasts. Ele é um site onde um único podcast pode liberar os últimos lançamentos do podcast.</p>",
+      "languages": "React com TypeScript, SCSS e JavaScript",
+      "image": "https://raw.githubusercontent.com/miilacg/nlw5/4c71fce6ef9501c534e9ea55e3fde30626b4df11/podcastr/public/images/logo.svg",
+      "url": "https://github.com/miilacg/nlw5/tree/main/podcastr",
+      "publishedAt": "2021-04-28 16:35:40"
     },
     {
       "id": 6,
       "category": "Web",
-      "title": "Calculadora de preços de venda",
-      "description": " ",
-      "image": " ",
-      "url": "https://github.com/miilacg/calculaPrecoEncomenda",
-      "publishedAt": "2021-01-22 16:35:40"
-    },
-    {
-      "id": 7,
-      "category": "Web",
-      "title": "Biblioteca de vídeos",
-      "description": " ",
-      "image": " ",
-      "url": "https://github.com/miilacg/miilacgflix",
-      "publishedAt": "2021-01-22 16:35:40"
-    },
-    {
-      "id": 8,
-      "category": "Web",
-      "title": "Monitoria de web",
-      "description": " ",
-      "image": " ",
-      "url": "https://github.com/miilacg/monitoriaWeb",
-      "publishedAt": "2021-01-22 16:35:40"
-    },
-    {
-      "id": 9,
-      "category": "Web",
-      "title": "Maratona Discover",
-      "description": " ",
-      "image": " ",
-      "url": "https://github.com/miilacg/monitoriaWeb",
-      "publishedAt": "2021-01-22 16:35:40"
-    },
-    {
-      "id": 10,
-      "category": "Web",
       "title": "SCADA-E",
-      "description": " ",
-      "image": " ",
+      "description": "<p>Sistema web para coleta e análise de dados de alunos egressos (SCADA-E) dos seguintes cursos: técnico em informatica e bacharel em ciencia da computação, ambos da UFV - Campus Florestal.</p>",
+      "languages": "PHP com Laravel, HTML, SCSS, JavaScript e MySQL",
+      "image": "https://raw.githubusercontent.com/miilacg/scadae/master/documentacao/interface.png",
       "url": "https://github.com/miilacg/scadae",
-      "publishedAt": "2021-01-22 16:35:40"
-    },
-    {
-      "id": 11,
-      "category": "Web",
-      "title": "Investimento",
-      "description": " ",
-      "image": " ",
-      "url": "https://github.com/miilacg/investimento",
-      "publishedAt": "2021-01-22 16:35:40"
-    },
-    {
-      "id": 12,
-      "category": "Web",
-      "title": "DSVendas",
-      "description": " ",
-      "image": " ",
-      "url": "dsvendas-miilacg.netlify.app",
-      "publishedAt": "2021-01-22 16:35:40"
+      "publishedAt": "2021-06-07 16:35:40"
     }
   ]
 }
