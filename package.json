@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"next dev\" \"json-server projetos.json -w -d 750 -p 3333\"",
-    "build": "concurrently \"next build\" \"json-server projetos.json -w -d 750 -p 3333\"",
+    "build": "concurrently \"next build\" \"json-server projetos.json -w -p 3333\"",
     "start": "next start",
     "server": "json-server projetos.json -w -d 750 -p 3333"
   },
