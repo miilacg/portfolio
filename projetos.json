@@ -59,6 +59,26 @@
       "image": "https://raw.githubusercontent.com/miilacg/scadae/master/documentacao/interface.png",
       "url": "https://github.com/miilacg/scadae",
       "publishedAt": "2021-06-07 16:35:40"
+    },
+    {
+      "id": 7,
+      "category": "Web",
+      "title": "Jogo da velha",
+      "description": "<p>Jogo da velha em React.</p>",
+      "languages": "React com JavaScript, HTML e CSS",
+      "image": "https://raw.githubusercontent.com/miilacg/jogoDaVelha/main/public/jogodavelha.png?token=AJJIETMRYLVRBQVWSH4FN5LAYJVH2",
+      "url": "https://github.com/miilacg/jogoDaVelha",
+      "publishedAt": "2021-06-11 15:11:40"
+    },
+    {
+      "id": 8,
+      "category": "Web",
+      "title": "Hello Meteor",
+      "description": "<p>Aprendendo a usar o Meteor.</p>",
+      "languages": "React, Meteor, HTML, CSS e MongoDB",
+      "image": "#",
+      "url": "https://github.com/miilacg/helloMeteor",
+      "publishedAt": "2021-06-11 16:11:40"
     }
   ]
 }
