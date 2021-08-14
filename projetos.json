@@ -73,8 +73,8 @@
     {
       "id": 8,
       "category": "Web",
-      "title": "Hello Meteor",
-      "description": "<p>Aprendendo a usar o Meteor.</p>",
+      "title": "To do list",
+      "description": "<p>Lista de afazeres.</p>",
       "languages": "React, Meteor, HTML, CSS e MongoDB",
       "image": "#",
       "url": "https://github.com/miilacg/helloMeteor",
