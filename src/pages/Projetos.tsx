@@ -3,6 +3,7 @@ import { format, parseISO } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
 import Link from 'next/link';
 
+import { api } from '../services/api';
 import styles from '../styles/pages/Projetos.module.scss';
 
 
