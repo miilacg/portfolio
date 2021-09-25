@@ -22,7 +22,8 @@ export default function SobreMim() {
         </p>
         <p>
           Se você possui um negócio ou uma ideia, entre em contato, tenho certeza 
-          que podemos fazer algo incrível.</p>
+          que podemos fazer algo incrível.
+        </p>
       </div>
     </main> 
   )
