@@ -11,13 +11,9 @@
 }
 
 .social .icon {
-  margin: 1.125rem 0;
+  width: 1.9rem;
+  height: 1.9rem;
+  margin: 1.125rem 0 0;
 
-  font-size: 1.75rem;
   color: var(--roxo);
-}
-
-.social .icon:first-child,
-.social .icon:last-child {
-  margin: 0;
 }
