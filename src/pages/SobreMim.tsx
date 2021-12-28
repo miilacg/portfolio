@@ -8,7 +8,7 @@ export default function SobreMim() {
       <div className={ styles.texto }>
         <h1>Olá</h1>
         <p>
-          Tenho 24 anos, sou formada em Ciência da Computação 
+          Tenho 25 anos, sou formada em Ciência da Computação 
           pela UFV e apaixonada por tecnologia.
         </p>
         <p>
