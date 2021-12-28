@@ -1,5 +1,21 @@
-const cinza = '#F6F6F6';
+// Cores
+const cinza = 'rgb(246, 246, 246)';
+const laranja = 'rgb(255, 142, 110)';
+const roxo = 'rgb(81, 80, 112)'; 
+const salmao = 'rgb(255, 187, 145)';
+const text = 'rgb(61, 60, 60)';
 
+// Tipografia
+const caption = {
+  margin: '0 0 .4rem 0', 
+
+  textAlign: 'center',
+  color: cinza,
+  fontSize: '.8125rem',
+  fontWeight: '400'
+};
+
+// Outros
 const link = {
   margin: '0 .46875rem', 
 
@@ -7,12 +23,10 @@ const link = {
   color: cinza,
   fontSize: '1.05rem',
   fontWeight: 500,
-  textDecoration: 'none',
 
   border: 'none',
   cursor: 'pointer'
-}
-
+};
 
 
 
@@ -49,85 +63,6 @@ const dangerColor = '#f55a4e';
 const successColor = '#4caf50';
 const infoColor = '#00acc1';
 const textColorMessages = '#002e07';
-
-
-
-
-// Tipografia
-const h1 = {
-  fontFamily: "'M PLUS Rounded 1c', sans-serif",
-  fontSize: '3rem', //36px ou 48px
-  fontWeight: 800,
-  lineHeight: 'normal',
-};
-
-const h2 = {
-  fontFamily: "'M PLUS Rounded 1c', sans-serif",
-  fontSize: '2.25rem', //28px ou 36px
-  fontWeight: 800,
-  lineHeight: 'normal',
-};
-
-const h3 = {
-    fontFamily: "'M PLUS Rounded 1c', sans-serif",
-    fontSize: '1.75rem', //24px ou 28px
-    fontWeight: 800,
-    lineHeight: 'normal',
-};
-const h4 = {
-    fontSize: '1.75rem', //24px ou 28px
-    fontWeight: 400,
-    lineHeight: 'normal',
-};
-const h5 = {
-    fontFamily: "'M PLUS Rounded 1c', sans-serif",
-    fontSize: '1.5rem', //20px ou 24px
-    fontWeight: 800,
-    lineHeight: 'normal',
-};
-const h6 = {
-    fontSize: '1.25rem', //18px ou 20px
-    fontWeight: 400,
-    lineHeight: 'normal',
-};
-const button = {
-    fontSize: '1.125rem', //16px ou 18px
-    fontWeight: 700,
-    letterSpacing: '0.01em',
-    lineHeight: 'normal',
-};
-const subtitle1 = {
-    fontSize: '1.125rem', //16px ou 18px
-    fontWeight: 700,
-    letterSpacing: '0.01em',
-    lineHeight: 'normal',
-};
-const body1 = {
-    fontSize: '1rem', //14px ou 16px
-    fontWeight: 400,
-    lineHeight: 'normal',
-};
-const subtitle2 = {
-    fontSize: '1rem', //14px ou 16px
-    fontWeight: 700,
-    letterSpacing: '0.01em',
-    lineHeight: 'normal',
-};
-const body2 = {
-  fontSize: '0.875rem', //12px ou 14px
-  fontWeight: 400,
-  lineHeight: 'normal',
-};
-
-const caption = {
-  fontSize: '0.75rem', //10px ou 12px
-  fontWeight: 400,
-  letterSpacing: '0.02em',
-  lineHeight: 'normal',
-};
-
-
-
 
 
 // Sombras
@@ -184,11 +119,20 @@ const fieldContainer = {
  
  
 export { 
-  //cores
+  // Cores
   cinza,
+  laranja,
+  roxo,
+  salmao,
+  text,
 
+  // Tipografia
+  caption,
 
+  // Outros
   link,
+
+ 
 
 
 
@@ -224,21 +168,6 @@ export {
   successColor,
   infoColor,
   textColorMessages,
-  
- 
-  //Tipografia
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  subtitle1,
-  body1,
-  subtitle2,
-  body2,
-  caption,
 
   // Sombras
   sombraCard,

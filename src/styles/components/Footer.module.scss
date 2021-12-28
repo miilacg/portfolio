@@ -5,10 +5,7 @@
    flex-direction: column;
    height: var(--alturaFooter);
 
-   background: var(--roxo);
-   color: var(--cinza);
-   text-align: center;
-   font-size: .8125rem;
+   background: var(--roxo); 
 
    z-index: 100;
    position: fixed;
@@ -22,7 +19,7 @@
    font-weight: 400;
 }
 
-.texto .span {
+.span {
    font-weight: 700;
    font-size: .9375rem;
    margin: 0 .3rem;

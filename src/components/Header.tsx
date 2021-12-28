@@ -1,4 +1,5 @@
-import * as  appStyle from '../materialui/styles';
+import Link from '@mui/material/Link';
+
 import styles from '../styles/components/Header.module.scss';
  
 
@@ -10,11 +11,11 @@ export default function Header() {
          </a>
 
          <div className={ styles.linksMenu }>
-            <a href="/" className={ styles.link } style={ appStyle.link }>HOME</a>
-            <a href="/SobreMim" className={ styles.link } style={ appStyle.link }>SOBRE</a>
-            <a href="/Curriculo" className={ styles.link } style={ appStyle.link }>CURRÍCULO</a>
-            <a href="/Projetos" className={ styles.link } style={ appStyle.link }>PROJETOS</a>
-            {/*<a href="/Contato" className={ styles.link } style={ appStyle.link }>CONTATO</a>*/}
+            <Link href='/'>HOME</Link>
+            <Link href="/SobreMim">SOBRE</Link>
+            <Link href="/Curriculo">CURRÍCULO</Link>
+            <Link href="/Projetos">PROJETOS</Link>
+            {/*<Link href="/Contato">CONTATO</Link>*/}
          </div>
       </nav>
    );
