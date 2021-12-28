@@ -1,4 +1,6 @@
+import * as  appStyle from '../materialui/styles';
 import styles from '../styles/components/Header.module.scss';
+ 
 
 export default function Header() { 
    return (   
@@ -8,11 +10,11 @@ export default function Header() {
          </a>
 
          <div className={ styles.linksMenu }>
-            <a href="/" className={ styles.link }>HOME</a>
-            <a href="/SobreMim" className={ styles.link }>SOBRE</a>
-            <a href="/Curriculo" className={ styles.link }>CURRÍCULO</a>
-            <a href="/Projetos" className={ styles.link }>PROJETOS</a>
-            {/*<a href="/Contato" className={ styles.link }>CONTATO</a>*/}
+            <a href="/" className={ styles.link } style={ appStyle.link }>HOME</a>
+            <a href="/SobreMim" className={ styles.link } style={ appStyle.link }>SOBRE</a>
+            <a href="/Curriculo" className={ styles.link } style={ appStyle.link }>CURRÍCULO</a>
+            <a href="/Projetos" className={ styles.link } style={ appStyle.link }>PROJETOS</a>
+            {/*<a href="/Contato" className={ styles.link } style={ appStyle.link }>CONTATO</a>*/}
          </div>
       </nav>
    );
