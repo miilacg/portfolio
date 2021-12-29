@@ -11,7 +11,7 @@
 
 
 //barra vertical
-/*.topico::before {  
+.topico::before {  
   content: '';
   position: absolute;
   width: 0.04rem;
@@ -19,4 +19,4 @@
   top: 0;
   left: -1.875rem;
   background-color: var(--roxo);
-}*/
+}
