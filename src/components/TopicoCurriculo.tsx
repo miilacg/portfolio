@@ -2,6 +2,8 @@ import Typography from '@mui/material/Typography';
 
 import styles from '../styles/components/TopicoCurriculo.module.scss';
 
+
+
 type Topico = { 
   subtitle: string;
   date: string;

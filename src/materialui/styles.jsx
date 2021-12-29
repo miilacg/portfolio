@@ -13,7 +13,31 @@ const caption = {
   textAlign: 'center',
   color: cinza,
   fontSize: '.8125rem',
-  fontWeight: '400'
+};
+
+const h1 = {
+  display: 'flex',
+  justifyContent: 'center',
+
+  margin: '0 auto 4.3125rem',
+
+  color: laranja,
+  fontFamily: "'IBM Plex Sans', sans-serif",
+  fontSize: '3rem',
+  fontWeight: '700',
+  letterSpacing: '0.05em'    
+};
+
+const h2 = {
+  alignItems: 'center',
+
+  margin: '0 auto 2.4375rem',
+
+  textAlign: 'center',
+  color: text,
+  fontSize: '2.1875rem',
+  fontWeight: '700',  
+  letterSpacing: '0.05em'
 };
 
 const h3 = {
@@ -21,6 +45,7 @@ const h3 = {
 
   textAlign: 'justify',
   color: text,
+  fontFamily: "'IBM Plex Sans', sans-serif",
   fontSize: '1.5rem',
   fontWeight: '600',
   lineHeight: '1.3'  
@@ -32,7 +57,6 @@ const h5 = {
   textAlign: 'justify',
   color: text,
   fontSize: '1.125rem',
-  fontWeight: 'normal',
   lineHeight: '1.5'
 };
 
@@ -41,7 +65,6 @@ const subtitle2 = {
 
   color: roxo,
   fontSize: '.9375rem',
-  fontWeight: 'normal',
   lineHeight: '1.3' 
 };
 
@@ -122,6 +145,8 @@ export {
 
   // Tipografia
   caption,
+  h1,
+  h2,
   h3,
   h5,
   subtitle2,

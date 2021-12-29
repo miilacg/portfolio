@@ -3,18 +3,6 @@
   padding-right: 3%;
 
   overflow-x: scroll;
-
-  h1{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto 4.3125rem;
-
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: bold;
-    font-size: 3rem;  
-    letter-spacing: 0.05em;
-    color: var(--laranja);
-  }
 }
 
 .cards {
@@ -29,17 +17,6 @@
     flex: 1;
     padding: 0 2.25rem 0 4.1875rem;
     
-    font-family: 'IBM Plex Sans', sans-serif;    
-
-    h2 {
-      margin: 0 auto 2.4375rem;
-  
-      align-items: center;
-      text-align: center;    
-      font-weight: bold;
-      font-size: 2.1875rem;   
-      letter-spacing: 0.05em;
-      color: var(--text);
-    }
+    font-family: 'IBM Plex Sans', sans-serif;
   }
 }
