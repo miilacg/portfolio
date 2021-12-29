@@ -8,6 +8,19 @@ const text = 'rgb(61, 60, 60)';
 
 
 // Tipografia
+const body1 = {  
+  display: 'flex',
+  alignItems: 'center',
+
+  marginBottom: '.8125rem',
+   
+  textAlign: 'justify',
+
+  fontFamily: "'IBM Plex Sans', sans-serif",
+  color: text,
+  fontSize: '1.25rem' 
+};
+
 const caption = {
   margin: '0 0 .4rem 0', 
 
@@ -106,6 +119,7 @@ export {
   text,
 
   // Tipografia
+  body1,
   caption,
   h1,
   h2,

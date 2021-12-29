@@ -10,6 +10,7 @@ export const theme = createTheme({
     fontSize: 16,    
     fontWeight: '400',
 
+    body1: appStyles.body1,
     caption: appStyles.caption,
     h1: appStyles.h1,
     h2: appStyles.h2,
