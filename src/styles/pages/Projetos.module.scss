@@ -1,26 +1,11 @@
 .mainProjects {
-  font-style: normal;
-
   h1 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
     margin: 0;
-
-    font-weight: bold;
-    font-size: 3rem;
-    letter-spacing: 0.05em;
   }
 
-  h2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 0;
-
+  h2 {  
     font-weight: 300;
     font-size: 1.5rem;
-    letter-spacing: 0.05em;
   }
 
   section {
@@ -37,19 +22,12 @@
       margin: 0 1.5625rem 0 0;
 
       h3 {
-        font-family: 'IBM Plex Sans', sans-serif;  
-        font-weight: 600;
-        font-size: 1.5rem;
         line-height: 1.9375rem;
-        text-align: justify;
       }
   
       p {
-        font-family: 'IBM Plex Sans', sans-serif;  
-        font-weight: normal;
         font-size: 1.125rem;
         line-height: 1.6875rem;
-        text-align: justify;
       }
   
       a {

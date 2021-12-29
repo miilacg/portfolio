@@ -9,6 +9,7 @@ export const theme = createTheme({
     color: appStyles.text,
     fontSize: 16,    
     fontWeight: '400',
+    fontStyle: 'normal',
 
     body1: appStyles.body1,
     caption: appStyles.caption,
