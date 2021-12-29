@@ -1,7 +1,12 @@
 .sobreMim {
    display: flex;
    flex-direction: row;
-   padding-bottom: 3.6875rem;
+   position: absolute;
+   top: 50%;
+   transform: translate(0%, -50%);
+
+   margin: auto;
+   padding-top: 0;
 }
 
 .sobreMim img {
@@ -19,7 +24,6 @@
 
 .sobreMim h1 {
    margin: 0 auto .4375rem auto;
-   font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .sobreMim p {

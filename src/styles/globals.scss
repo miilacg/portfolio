@@ -40,6 +40,8 @@ h1 {
 }
 
 main {
+  position: relative;
+
   height: calc(100vh - var(--alturaLogo) - var(--alturaFooter));
 
   background-color: var(--cinza);
@@ -47,7 +49,7 @@ main {
   margin-bottom: var(--alturaFooter);
   padding-top: 3.6875rem;
   padding-left: 4.2%;
-  padding-right: 4.2%;
+  padding-right: 4.2%;  
 }
 
 @media (min-width: 1400px) {
