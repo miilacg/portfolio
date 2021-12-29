@@ -18,7 +18,7 @@
       "languages": "React com TypeScript e CSS",
       "image": "#",
       "url": "https://miilacg-moveit-n6ca2thbs-miilacg.vercel.app/",
-      "publishedAt": "2021-04-21 16:35:40"
+      "publishedAt": "2021-02-27 16:35:40"
     },
     {
       "id": 3,
@@ -58,7 +58,7 @@
       "languages": "PHP com Laravel, HTML, SCSS, JavaScript e MySQL",
       "image": "https://raw.githubusercontent.com/miilacg/scadae/master/documentacao/interface.png",
       "url": "https://github.com/miilacg/scadae",
-      "publishedAt": "2021-06-07 16:35:40"
+      "publishedAt": "2021-06-19 16:35:40"
     },
     {
       "id": 7,
@@ -76,9 +76,19 @@
       "title": "To do list",
       "description": "<p>Lista de afazeres.</p>",
       "languages": "React, Meteor, HTML, CSS e MongoDB",
-      "image": "#",
+      "image": "https://github.com/miilacg/toDoList/blob/main/public/images/interface.png",
       "url": "https://github.com/miilacg/helloMeteor",
-      "publishedAt": "2021-06-11 16:11:40"
+      "publishedAt": "2021-06-04 16:11:40"
+    },
+    {
+      "id": 9,
+      "category": "Web",
+      "title": "Letmeask",
+      "description": "<p>Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.</p>",
+      "languages": "React, Firebase, TypeScript e SCSS",
+      "image": "https://github.com/miilacg/nlw6/blob/main/letmeask/src/assets/images/interface.png",
+      "url": "https://github.com/miilacg/nlw6/tree/main/letmeask",
+      "publishedAt": "2021-06-26 16:11:40"
     }
   ]
 }
