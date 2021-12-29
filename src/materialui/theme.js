@@ -6,9 +6,13 @@ import * as appStyles from './styles';
 export const theme = createTheme({
   typography: {
     fontFamily: "'Roboto', sans-serif",
-    fontSize: 16,
+    fontSize: 16,    
     color: appStyles.text,
-    caption: appStyles.caption
+
+    caption: appStyles.caption,
+    h3: appStyles.h3,
+    h5: appStyles.h5,
+    subtitle2: appStyles.subtitle2
   },    
 
   components: {

@@ -5,6 +5,7 @@ const roxo = 'rgb(81, 80, 112)';
 const salmao = 'rgb(255, 187, 145)';
 const text = 'rgb(61, 60, 60)';
 
+
 // Tipografia
 const caption = {
   margin: '0 0 .4rem 0', 
@@ -14,6 +15,36 @@ const caption = {
   fontSize: '.8125rem',
   fontWeight: '400'
 };
+
+const h3 = {
+  margin: '0',
+
+  textAlign: 'justify',
+  color: text,
+  fontSize: '1.5rem',
+  fontWeight: '600',
+  lineHeight: '1.3'  
+};
+
+const h5 = {
+  margin: '0',
+
+  textAlign: 'justify',
+  color: text,
+  fontSize: '1.125rem',
+  fontWeight: 'normal',
+  lineHeight: '1.5'
+};
+
+const subtitle2 = {
+  margin: '.9375rem 0 1.5625rem',
+
+  color: roxo,
+  fontSize: '.9375rem',
+  fontWeight: 'normal',
+  lineHeight: '1.3' 
+};
+
 
 // Outros
 const link = {
@@ -34,10 +65,6 @@ const link = {
 const primaryBlue = '#0071bb';
 const primaryGreen = '#00b4c2';
 const primaryGradient = `linear-gradient(to right, ${ primaryBlue } 0%, ${ primaryGreen } 100%)`;
-const primaryGradientOnHover = `linear-gradient(to left, ${ primaryBlue } 0%, ${ primaryGreen } 100%)`;
-  
-// Cores de elementos e superfícies
-const backgroundColor = '#f2f2f2';
 
 // Cores relacionadas às dimensões
 const dimAtores = '#f1667c';
@@ -68,45 +95,14 @@ const textColorMessages = '#002e07';
 // Sombras
 const sombraCard = '0px 2px 4px rgba(0, 0, 0, 0.15)';
 const sombraCardOnHover = '0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)';
-const sombraSuperficie = '1px 3px 12px rgba(0, 0, 0, 0.15)';
 
 
 
 // Outros
-const fabContainer = {
-  position: 'fixed',
-  bottom: 30,
-  right: 30,
-};
-
-const formGroup = {
-  width: '100%',
-  display: 'flex',
-  flexDirection: 'row',
-  justifyContent: 'space-between',
-  padding: 'none',
-};
-
 const row = {
   display: 'flex',
   flexDirection: 'row',
   flexWrap: 'wrap',
-};
-
-const form = {
-  display: 'flex',
-  flexDirection: 'column',
-  paddingTop: 20,
-  marginBottom: 40,
-  paddingBottom: 100,
-};
-
-const logo = {
-  maxWidth: 100,
-};
-
-const column = {
-  flex: 0.5
 };
 
 const fieldContainer = {
@@ -114,8 +110,6 @@ const fieldContainer = {
   padding: 4,
   paddingBottom: 0
 };
- 
- 
  
  
 export { 
@@ -128,6 +122,9 @@ export {
 
   // Tipografia
   caption,
+  h3,
+  h5,
+  subtitle2,
 
   // Outros
   link,
@@ -141,9 +138,6 @@ export {
   primaryBlue,
   primaryGreen,
   primaryGradient,
-  primaryGradientOnHover,
-
-  backgroundColor,
  
   dimAtores,
   dimCultura,
@@ -172,14 +166,8 @@ export {
   // Sombras
   sombraCard,
   sombraCardOnHover,
-  sombraSuperficie,
  
   //Outros
-  fabContainer,
   row,
-  column,
-  form,
-  logo,
-  formGroup,
   fieldContainer
 }; 
