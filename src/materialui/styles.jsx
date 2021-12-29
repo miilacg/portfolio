@@ -1,5 +1,6 @@
 // Cores
 const cinza = 'rgb(246, 246, 246)';
+const errorColor = 'rgba(255, 56, 88, 1)';
 const laranja = 'rgb(255, 142, 110)';
 const roxo = 'rgb(81, 80, 112)'; 
 const salmao = 'rgb(255, 187, 145)';
@@ -25,7 +26,7 @@ const h1 = {
   fontFamily: "'IBM Plex Sans', sans-serif",
   fontSize: '3rem',
   fontWeight: '700',
-  letterSpacing: '0.05em'    
+  letterSpacing: '0.05em'  
 };
 
 const h2 = {
@@ -48,7 +49,7 @@ const h3 = {
   fontFamily: "'IBM Plex Sans', sans-serif",
   fontSize: '1.5rem',
   fontWeight: '600',
-  lineHeight: '1.3'  
+  lineHeight: '1.3'
 };
 
 const h5 = {
@@ -85,27 +86,6 @@ const link = {
 
 
 
-const primaryBlue = '#0071bb';
-const primaryGreen = '#00b4c2';
-const primaryGradient = `linear-gradient(to right, ${ primaryBlue } 0%, ${ primaryGreen } 100%)`;
-
-// Cores relacionadas às dimensões
-const dimAtores = '#f1667c';
-const dimCultura = '#7e78b8';
-const dimEstrutura = '#44c8f5';
-const dimPoliticas = '#fbb040';
-const dimRecursos = '#42c1c7';
-
-const dimAtoresSuave = 'rgba(241,102,124,0.35)';
-const dimCulturaSuave = 'rgba(126,120,184,0.35)';
-const dimEstruturaSuave = 'rgba(68,200,245,0.35)';
-const dimPoliticasSuave = 'rgba(251,176,64,0.35)';
-const dimRecursosSuave = 'rgba(66,193,199,0.35)';
-
-const dimGradient = `linear-gradient(to right, ${ dimAtores } 0%, ${ dimCultura } 25%, ${ dimEstrutura } 50%, ${ dimRecursos } 75%, ${ dimPoliticas } 100%)`;
-const dimAngularGradient = `conic-gradient(${ dimAtoresSuave }, ${ dimCulturaSuave }, ${ dimEstruturaSuave }, ${ dimRecursosSuave }, ${ dimPoliticasSuave }, ${ dimAtoresSuave })`;
-
-const errorColor = '#FF3858';
 
 // Messages (Boilerplate)
 const warningColor = '#ff9800';
@@ -115,29 +95,11 @@ const infoColor = '#00acc1';
 const textColorMessages = '#002e07';
 
 
-// Sombras
-const sombraCard = '0px 2px 4px rgba(0, 0, 0, 0.15)';
-const sombraCardOnHover = '0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)';
-
-
-
-// Outros
-const row = {
-  display: 'flex',
-  flexDirection: 'row',
-  flexWrap: 'wrap',
-};
-
-const fieldContainer = {
-  flex: 1,
-  padding: 4,
-  paddingBottom: 0
-};
- 
  
 export { 
   // Cores
   cinza,
+  errorColor,
   laranja,
   roxo,
   salmao,
@@ -154,32 +116,7 @@ export {
   // Outros
   link,
 
- 
 
-
-
-
-  //Paleta
-  primaryBlue,
-  primaryGreen,
-  primaryGradient,
- 
-  dimAtores,
-  dimCultura,
-  dimEstrutura,
-  dimPoliticas,
-  dimRecursos,
-
-  dimAtoresSuave,
-  dimCulturaSuave,
-  dimEstruturaSuave,
-  dimPoliticasSuave,
-  dimRecursosSuave,
-
-  dimAngularGradient,
-  dimGradient,
-
-  errorColor,
  
   // messages
   warningColor,
@@ -187,12 +124,4 @@ export {
   successColor,
   infoColor,
   textColorMessages,
-
-  // Sombras
-  sombraCard,
-  sombraCardOnHover,
- 
-  //Outros
-  row,
-  fieldContainer
 }; 

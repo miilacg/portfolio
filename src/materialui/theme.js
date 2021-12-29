@@ -48,8 +48,7 @@ export const theme = createTheme({
       defaultProps: {
         variantMapping: {
           h1: 'h1', h2: 'h2', h3: 'h3',
-          h4: 'h4', h5: 'h5', h6: 'h6',
-          subtitle1: 'p', subtitle2: 'p',
+          h5: 'h5', h6: 'h6', subtitle2: 'p',
           body1: 'p', body2: 'p', caption: 'p',
         },
       },
