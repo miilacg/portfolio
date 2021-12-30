@@ -63,7 +63,6 @@ export const projetos = [
     "title": "Jogo da velha",
     "description": "<p>Jogo da velha em React.</p>",
     "languages": "React com JavaScript, HTML e CSS",
-    "image": "https://raw.githubusercontent.com/miilacg/jogoDaVelha/main/public/jogodavelha.png?token=AJJIETLHSPWP6ZBVLJXSH73BZSZ54",
     "url": "https://github.com/miilacg/jogoDaVelha",
     "publishedAt": "2021-06-11 15:11:40"
   },
@@ -83,7 +82,6 @@ export const projetos = [
     "title": "Letmeask",
     "description": "<p>Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.</p>",
     "languages": "React, Firebase, TypeScript e SCSS",
-    "image": "https://raw.githubusercontent.com/miilacg/nlw6/main/letmeask/src/assets/images/interface.png?token=AJJIETNE3Z4NS54MILQIZFDBZSZ3U",
     "url": "https://github.com/miilacg/nlw6/tree/main/letmeask",
     "publishedAt": "2021-06-26 16:11:40"
   }
