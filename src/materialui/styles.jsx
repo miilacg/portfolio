@@ -47,6 +47,7 @@ const h2 = {
 
   margin: '0 auto 2.4375rem',
 
+  fontFamily: "'IBM Plex Sans', sans-serif",
   textAlign: 'center',
   color: text,
   fontSize: '2.1875rem',
@@ -62,7 +63,7 @@ const h3 = {
   fontFamily: "'IBM Plex Sans', sans-serif",
   fontSize: '1.5rem',
   fontWeight: '600',
-  lineHeight: '1.3'        
+  lineHeight: '1.3'
 };
 
 const h5 = {

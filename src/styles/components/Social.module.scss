@@ -7,7 +7,7 @@
   flex-direction: column;
   position: fixed;
   left: 2.25rem;
-  bottom: 7.125rem;
+  bottom: calc(var(--alturaFooter) + 2.56rem);
 }
 
 .social .icon {
