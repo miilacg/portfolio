@@ -16,8 +16,15 @@ export default function Curriculo() {
           <Typography variant='h2'>Experiência</Typography>
           <TopicoCurriculo 
             subtitle="Analista de sistemas júnior"
-            date="2021 - atual | Synergia"
+            date="2022 - atual | Dr. Tis"
             description=''
+          />
+          
+          <TopicoCurriculo 
+            subtitle="Analista de sistemas júnior"
+            date="2021 - 2022 | Synergia"
+            description='Atividades de desenvolvimento de sistemas no geral. Trabalhei 
+                         em sistemas diversos utilizando React e Metor.'
           />
 
           <TopicoCurriculo 
