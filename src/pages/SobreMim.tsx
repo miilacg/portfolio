@@ -13,7 +13,7 @@ export default function SobreMim() {
         <Typography variant='h1'>Olá</Typography>
         
         <Typography variant='body1'>
-          Tenho 24 anos, sou formada em Ciência da Computação 
+          Tenho 26 anos, sou formada em Ciência da Computação 
           pela UFV e apaixonada por tecnologia.
         </Typography>
         <Typography variant='body1'>

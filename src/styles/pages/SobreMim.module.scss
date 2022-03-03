@@ -1,6 +1,5 @@
 .sobreMim {
    display: flex;
-   flex-direction: row;
    position: absolute;
    top: 50%;
    transform: translate(0%, -50%);
@@ -19,7 +18,6 @@
 
 .sobreMim .texto {
    margin: auto 0 auto 3rem;
-   align-self: center;
 }
 
 .sobreMim h1 {
@@ -28,5 +26,5 @@
 }
 
 .sobreMim p:last-child {
-   margin-bottom: 0vw;
+   margin-bottom: 0;
 }
