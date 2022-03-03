@@ -23,8 +23,8 @@ export default function Curriculo() {
           <TopicoCurriculo 
             subtitle="Analista de sistemas júnior"
             date="2021 - 2022 | Synergia"
-            description='Atividades de desenvolvimento de sistemas no geral. Trabalhei 
-                         em sistemas diversos utilizando React e Metor.'
+            description='Atividades de desenvolvimento de sistemas no geral. Trabalhei em sistemas 
+                         diversos utilizando <strong>ReactJS</strong> e <strong>Metor</strong>.'
           />
 
           <TopicoCurriculo 
