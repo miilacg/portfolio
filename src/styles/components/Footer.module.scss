@@ -1,7 +1,6 @@
 .footerBase {
    display: flex;
    justify-content: center;
-   align-items: center;
    flex-direction: column;
    height: var(--alturaFooter);
 
@@ -14,14 +13,8 @@
    right: 0;
 }
 
-.texto {
-   margin: 0 0 .669375rem 0; 
-   font-weight: 400;
-}
-
 .span {
    font-weight: 700;
-   font-size: .9375rem;
    margin: 0 .3rem;
 }
 
