@@ -1,21 +1,49 @@
 .menu {
-   width: 100%;
-   height: auto;
-   z-index: 100;
+  width: 100%;
+  height: auto;
+  z-index: 100;
 
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-   position: fixed;
-   top: 0;
-   left: 0;
-   right: 0;
-   padding: 0 3% 0 2.1%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 3% 0 2.1%;
 
-   background: var(--roxo);
+  background: var(--roxo);
 }
 
 .menu a.logo {    
-   height: var(--alturaLogo);
+  height: var(--alturaLogo);
+}
+
+.linksMenu a {
+  margin: 0 .46875rem;
+
+  font-family: 'Roboto', sans-serif;
+  color: var(--cinza);
+  font-size: 1.05rem;
+  font-weight: 500;
+
+  border: none;
+  cursor: pointer;
+}
+
+.linksMenu a:focus {      
+  outline: none;
+}   
+.linksMenu a:first-child {
+  margin: 0 .46875rem 0 0;
+}
+.linksMenu a:last-child{
+  margin: 0 0 0 .46875rem;
+}          
+.linksMenu a:hover {
+  color: avar(--laranja);
+}          
+.linksMenu a:active{
+  color: avar(--laranja);
 }
