@@ -5,7 +5,6 @@ export const projetos = [
     "title": "ONG Produzindo alegria",
     "description": " ",
     "languages": "CSS e HTML",
-    "image": "#",
     "url": "https://github.com/miilacg/ong-produzindoAlegria",
     "publishedAt": "2020-02-14 16:35:40"
   },
@@ -15,9 +14,8 @@ export const projetos = [
     "title": "Moveit",
     "description": "<p>O move.it é um app que une a técnica de Pomodoro com a realização de exercícios físicos para quem passa muito tempo na frente do computador.</p><p>Esse projeto foi desenvolvido durante a trilha de React, na quarta edição da NLW.</p>",
     "languages": "React com TypeScript e CSS",
-    "image": "#",
     "url": "https://miilacg-moveit-n6ca2thbs-miilacg.vercel.app/",
-    "publishedAt": "2021-04-21 16:35:40"
+    "publishedAt": "2021-02-27 16:35:40"
   },
   {
     "id": 3,
@@ -57,7 +55,7 @@ export const projetos = [
     "languages": "PHP com Laravel, HTML, SCSS, JavaScript e MySQL",
     "image": "https://raw.githubusercontent.com/miilacg/scadae/master/documentacao/interface.png",
     "url": "https://github.com/miilacg/scadae",
-    "publishedAt": "2021-06-07 16:35:40"
+    "publishedAt": "2021-06-19 16:35:40"
   },
   {
     "id": 7,
@@ -65,18 +63,26 @@ export const projetos = [
     "title": "Jogo da velha",
     "description": "<p>Jogo da velha em React.</p>",
     "languages": "React com JavaScript, HTML e CSS",
-    "image": "https://raw.githubusercontent.com/miilacg/jogoDaVelha/main/public/jogodavelha.png?token=AJJIETMRYLVRBQVWSH4FN5LAYJVH2",
     "url": "https://github.com/miilacg/jogoDaVelha",
     "publishedAt": "2021-06-11 15:11:40"
   },
   {
     "id": 8,
     "category": "Web",
-    "title": "Hello Meteor",
-    "description": "<p>Aprendendo a usar o Meteor.</p>",
+    "title": "To do list",
+    "description": "<p>Lista de afazeres.</p>",
     "languages": "React, Meteor, HTML, CSS e MongoDB",
-    "image": "#",
+    "image": "https://raw.githubusercontent.com/miilacg/toDoList/main/public/images/interface.png",
     "url": "https://github.com/miilacg/helloMeteor",
-    "publishedAt": "2021-06-11 16:11:40"
+    "publishedAt": "2021-06-04 16:11:40"
+  },
+  {
+    "id": 9,
+    "category": "Web",
+    "title": "Letmeask",
+    "description": "<p>Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.</p>",
+    "languages": "React, Firebase, TypeScript e SCSS",
+    "url": "https://github.com/miilacg/nlw6/tree/main/letmeask",
+    "publishedAt": "2021-06-26 16:11:40"
   }
 ]

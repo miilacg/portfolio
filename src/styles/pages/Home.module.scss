@@ -1,50 +1,32 @@
 .mainHome {
-  position: relative;;
   padding: 0;
 }
 
 .texto {
-  display: flex;
-  flex-direction: column;
   position: absolute;
   top: 50%;
+  transform: translate(0%, -50%);
 
-  margin: auto;
-  width: 100%;
-  height: auto;
-
- transform: translate(0%, -50%);
+  width: 100%; 
 }
 
 .texto h1 {
-  font-weight: bold;
   font-size: 5.625rem;
-  text-align: center;
-  letter-spacing: 0.05em;
   line-height: 1;
 
-  margin: 2.45rem auto 1.125rem auto;
+  margin: 2.75rem auto 1.125rem;
 }
 
 .texto h2 {
-  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 500;
   font-size: 3rem;
-  text-align: center;
-  letter-spacing: 0.05em;
   line-height: 1;
-
-  margin: 0 auto;
 }
 
 .texto h3 {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-style: normal;
   font-weight: 200;
   font-size: 2.1875rem;
   text-align: center;
   letter-spacing: 0.15em; 
   line-height: 1;
-
-  margin: 0 auto;
 }

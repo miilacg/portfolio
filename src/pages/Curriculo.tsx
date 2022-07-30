@@ -1,23 +1,35 @@
+import Typography from '@mui/material/Typography';
+
 import TopicoCurriculo from '../components/TopicoCurriculo';
+
 import styles from '../styles/pages/Curriculo.module.scss';
+
+
 
 export default function Curriculo() {
   return (  
     <main className={ styles.mainCurriculo }>       
-      <h1>Currículo</h1>
+      <Typography variant='h1'>Currículo</Typography>
 
       <div className={ styles.cards }>
         <div className={ styles.card }>
-          <h2>Experiência</h2>
+          <Typography variant='h2'>Experiência</Typography>
           <TopicoCurriculo 
             subtitle="Analista de sistemas júnior"
-            date="2021 - atual | Synergia"
+            date="2022 - atual | Dr. TIS"
             description=''
+          />
+          
+          <TopicoCurriculo 
+            subtitle="Analista de sistemas júnior"
+            date="2021 - 2022 | Synergia"
+            description='Atividades de desenvolvimento de sistemas no geral. Trabalhei em sistemas 
+                         diversos utilizando <strong>ReactJS</strong> e <strong>Metor</strong>.'
           />
 
           <TopicoCurriculo 
             subtitle="Desenvolvedora web front-end"
-            date="2020 - atual | Atuspay"
+            date="2020 - 2021 | Atuspay"
             description="Desenvolvimento do front-end de um sistema de checkout transparente 
                          <strong> HTML</strong>, <strong> SCSS</strong> e <strong>JavaScript</strong>."
           />
@@ -31,7 +43,7 @@ export default function Curriculo() {
         </div>
 
         <div className={ styles.card }>
-          <h2>Educação</h2>
+          <Typography variant='h2'>Educação</Typography>
           <TopicoCurriculo 
             subtitle="Bacharel em Ciência da Computação"
             date="2015 - 2020 | Universidade Federal de Viçosa"

@@ -1,50 +1,48 @@
 import Link from 'next/link';
 
+import Typography from '@mui/material/Typography';
+
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.css';
+
+import { projetos } from '../services/projetos';
+
 import styles from '../styles/pages/Projetos.module.scss';
 
 
 
-type Project = { 
-  id: string;
-  category: string;
-  title: string;
-  description: string;
-  languages: string;
-  image: string;
-  url: string;
-  publishedAt: string;
-} 
-
-type ProjectsProps = { 
-  projects: Project[];
-}
-
-export default function Projetos({ projects }: ProjectsProps) {
+export default function Projetos() {
   return (  
     <main className={ styles.mainProjects }>       
-      <h1>Portfólio</h1>
-      <h2>Alguns dos meus projetos</h2>   
+      <Typography variant='h1'>Portfólio</Typography>
+      <Typography variant='h2'>Alguns dos meus projetos</Typography>   
 
       <section>        
-        { /*projects.map((projects, index) => {
-          return (
-            <div key={ projects.id } className={ styles.project }>
-              <div className={ styles.description }>
-                <h3> { projects.title } </h3>
-                <div dangerouslySetInnerHTML={{ __html: projects.description }} />  
-                <p> <strong>Linguagens e tecnologias utilizadas:</strong> { projects.languages } </p>
-                
-                <Link href={ projects.url }>
-                  <a> Visite o site </a>
-                </Link>
-              </div>  
-              
-              <div className={ styles.image }>
-                <img src={ projects.image } alt={ projects.title } /> 
-              </div>            
-            </div>
-          )
-        })*/}
+        <Carousel>
+          { projetos.map((project, index) => {
+            return (
+              /*<Carousel.Item key={ project.id } className={ styles.project }> */
+              <Carousel.Item key={ project.id } >
+                <div className={ styles.description }>
+                  <Typography variant='h3'> { project.title } </Typography>
+
+                  <div dangerouslySetInnerHTML={{ __html: project.description }} />  
+
+                  <Typography variant='body1'> 
+                    <strong style={{ margin: '.2rem' }}>Linguagens e tecnologias utilizadas: </strong> { project.languages }.
+                  </Typography>
+                  
+                  <Link href={ project.url }>
+                    <a> Visite o site </a>
+                  </Link>
+                </div> 
+                <div className={ styles.image }>
+                  <img src={ project.image } alt={ project.title } /> 
+                </div>         
+              </Carousel.Item>
+            )
+          })}
+        </Carousel> 
       </section>
     </main>                      
   );

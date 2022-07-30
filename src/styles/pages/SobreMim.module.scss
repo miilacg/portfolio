@@ -1,7 +1,11 @@
 .sobreMim {
    display: flex;
-   flex-direction: row;
-   padding-bottom: 3.6875rem;
+   position: absolute;
+   top: 50%;
+   transform: translate(0%, -50%);
+
+   margin: auto;
+   padding-top: 0;
 }
 
 .sobreMim img {
@@ -14,26 +18,13 @@
 
 .sobreMim .texto {
    margin: auto 0 auto 3rem;
-   align-self: center;
 }
 
 .sobreMim h1 {
-   margin: 0 auto .4375rem auto;
-   font-family: 'IBM Plex Sans', sans-serif;
-}
-
-.sobreMim p {
-   color: var(--text);
-   font-family: 'IBM Plex Sans', sans-serif;
-   font-size: 1.25rem;  
-   margin-bottom: .8125rem;
-   text-align: justify;
-   font-weight: normal;
-
-   display: flex;
-   align-items: center;
+   justify-content: flex-start;
+   margin: 0 auto 1.75rem auto;
 }
 
 .sobreMim p:last-child {
-   margin-bottom: 0vw;
+   margin-bottom: 0;
 }

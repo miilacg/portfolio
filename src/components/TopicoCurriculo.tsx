@@ -1,4 +1,8 @@
+import Typography from '@mui/material/Typography';
+
 import styles from '../styles/components/TopicoCurriculo.module.scss';
+
+
 
 type Topico = { 
   subtitle: string;
@@ -9,12 +13,14 @@ type Topico = {
 export default function TopicoCurriculo({ subtitle, date, description }: Topico) {
   return (
     <div className={ styles.topico }>
-      <h3>{ subtitle }</h3>
-      <p> 
+      <Typography variant='h3'>{ subtitle }</Typography>
+
+      <Typography variant='subtitle2'> 
         <i className="far fa-calendar-alt"></i>
         { date }
-      </p>
-      <h5 dangerouslySetInnerHTML={{ __html: description }} />
+      </Typography>
+      
+      <Typography variant='h5' dangerouslySetInnerHTML={{ __html: description }} />
     </div>
   );
 }
