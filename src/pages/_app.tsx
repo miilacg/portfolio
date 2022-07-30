@@ -10,7 +10,7 @@ import '../styles/globals.scss'
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider  theme={ theme }>
+    <ThemeProvider theme={ theme }>
       <Header />
       <Component { ...pageProps } />
       <Footer />

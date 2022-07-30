@@ -36,6 +36,7 @@ const h1 = {
   margin: '0 auto 4.3125rem',
 
   color: laranja,
+  textAlign: 'center',
   fontFamily: "'IBM Plex Sans', sans-serif",
   fontSize: '3rem',
   fontWeight: '700',
@@ -78,9 +79,12 @@ const h5 = {
 const subtitle2 = {
   margin: '.9375rem 0 1.5625rem',
 
+  fontFamily: "'IBM Plex Sans', sans-serif",
   color: roxo,
   fontSize: '.9375rem',
-  lineHeight: '1.3' 
+  lineHeight: '1.3', 
+  fontWeight: '400',
+  letterSpacing: '0.03em'
 };
 
 
@@ -98,10 +102,7 @@ const link = {
 };
 
 
-
-
-
-// Messages (Boilerplate)
+// Messages
 const warningColor = '#ff9800';
 const dangerColor = '#f55a4e';
 const successColor = '#4caf50';
@@ -130,8 +131,6 @@ export {
 
   // Outros
   link,
-
-
  
   // messages
   warningColor,

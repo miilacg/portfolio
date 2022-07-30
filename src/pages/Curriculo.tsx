@@ -16,7 +16,7 @@ export default function Curriculo() {
           <Typography variant='h2'>Experiência</Typography>
           <TopicoCurriculo 
             subtitle="Analista de sistemas júnior"
-            date="2022 - atual | Dr. Tis"
+            date="2022 - atual | Dr. TIS"
             description=''
           />
           
