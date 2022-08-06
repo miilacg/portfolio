@@ -1,6 +1,9 @@
 .mainProjects {
   height: auto;
   
+  margin-top: 4.3125rem;
+  padding-bottom: 1rem;
+  
   h1 {
     margin: 0;
   }
@@ -15,8 +18,12 @@
   }
 
   section {
-    margin-top: 4.3125rem;
-    padding-bottom: calc(var(--alturaFooter) + 3.8125rem);
+    margin: 4.375rem 0 6.25rem 0;
+    padding: 1.25rem 0;
+
+    h2 {
+      text-align: start;
+    }
 
     .project {
       display: flex;
@@ -25,9 +32,6 @@
       padding: 0 3.375rem;
 
       .description {
-        width: 50%;
-        margin: 0 1.5625rem 0 0;
-    
         h3 {
           margin-bottom: 1.4375rem;
           justify-content: left;
@@ -37,8 +41,14 @@
         }
     
         p {
+          margin-bottom: .5rem;
+
+          font-family: 'IBM Plex Sans';
+          color: var(--text);
           font-size: 1.125rem;
           line-height: 1.6875rem;
+          font-style: normal;
+          font-weight: 400;
         }
     
         a {
@@ -55,6 +65,11 @@
     
           color: var(--roxo);
         }
+
+        .tech {
+          display: block;
+          margin: 0.9rem 0 1rem;
+        }
       }  
       
       .image {
@@ -66,8 +81,9 @@
     
         img {
           width: 100%;
+          margin: 0 auto;
         }
       }
-    }   
-  }  
+    }
+  }
 }
