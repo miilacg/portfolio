@@ -31,7 +31,7 @@ export default function Projetos() {
                   category == project.category && (
                     <Carousel.Item key={ project.id }>
                       <div className={ styles.project }>
-                        <div className={ styles.description }>
+                        <div className={ styles.description } style={{ width: project.image ? '50%' : '100%', margin: project.image ? '0 1.5625rem 0 0' : '0' }}>
                           <Typography variant='h3'> { project.title } </Typography>
 
                           <div dangerouslySetInnerHTML={{ __html: project.description }} />  
