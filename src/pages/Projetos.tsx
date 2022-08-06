@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
-import Typography from '@mui/material/Typography';
-
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.css';
+
+import Typography from '@mui/material/Typography';
 
 import { projetos } from '../services/projetos';
 
@@ -12,38 +12,53 @@ import styles from '../styles/pages/Projetos.module.scss';
 
 
 export default function Projetos() {
+  const categories = Object.keys((projetos.map((project) => { return project.category })).reduce((acc, curr) => (acc[curr] = '', acc), {}));
+
+
   return (  
     <main className={ styles.mainProjects }>       
       <Typography variant='h1'>Portfólio</Typography>
-      <Typography variant='h2'>Alguns dos meus projetos</Typography>   
+      <Typography variant='h3'>Alguns dos meus projetos</Typography>
 
-      <section>        
-        <Carousel>
-          { projetos.map((project, index) => {
-            return (
-              /*<Carousel.Item key={ project.id } className={ styles.project }> */
-              <Carousel.Item key={ project.id } >
-                <div className={ styles.description }>
-                  <Typography variant='h3'> { project.title } </Typography>
+      {categories.map((category) => {
+        return (
+          <section key={category}>
+            <Typography variant='h2'>{ category }</Typography>
 
-                  <div dangerouslySetInnerHTML={{ __html: project.description }} />  
+            <Carousel indicators={ false } interval={ 50000 }>
+              { projetos.map((project) => {
+                return (
+                  category == project.category && (
+                    <Carousel.Item key={ project.id }>
+                      <div className={ styles.project }>
+                        <div className={ styles.description }>
+                          <Typography variant='h3'> { project.title } </Typography>
 
-                  <Typography variant='body1'> 
-                    <strong style={{ margin: '.2rem' }}>Linguagens e tecnologias utilizadas: </strong> { project.languages }.
-                  </Typography>
-                  
-                  <Link href={ project.url }>
-                    <a> Visite o site </a>
-                  </Link>
-                </div> 
-                <div className={ styles.image }>
-                  <img src={ project.image } alt={ project.title } /> 
-                </div>         
-              </Carousel.Item>
-            )
-          })}
-        </Carousel> 
-      </section>
+                          <div dangerouslySetInnerHTML={{ __html: project.description }} />  
+
+                          <Typography variant='body1' className={ styles.tech }> 
+                            <strong style={{ marginRight: '.2rem' }}>Linguagens e tecnologias utilizadas:  </strong> { project.languages }.
+                          </Typography>
+                          
+                          <Link href={ project.url }>
+                            <a> Visite o site </a>
+                          </Link>
+                        </div> 
+                        
+                        { project.image && (
+                          <div className={ styles.image }>
+                            <img src={ project.image } alt={ project.title } /> 
+                          </div>  
+                        )} 
+                      </div>
+                    </Carousel.Item>
+                  )
+                )
+              })}
+            </Carousel> 
+          </section>
+        )
+      })}
     </main>                      
   );
 }
