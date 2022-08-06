@@ -18,7 +18,7 @@
   }
 
   section {
-    margin: 6.25rem 0;
+    margin: 4.375rem 0 6.25rem 0;
     padding: 1.25rem 0;
 
     h2 {
@@ -84,13 +84,5 @@
         }
       }
     }
-  }
-    
-  .carousel-control-prev {
-    justify-content: start;
-  } 
-  
-  .carousel-control-next {
-    justify-content: end;
   }
 }

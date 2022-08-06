@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 import Carousel from 'react-bootstrap/Carousel';
-import 'bootstrap/dist/css/bootstrap.css';
 
 import Typography from '@mui/material/Typography';
 
