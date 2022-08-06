@@ -3,8 +3,9 @@ export const projetos = [
     "id": 1,
     "category": "Web",
     "title": "ONG Produzindo alegria",
-    "description": " ",
+    "description": "<p>Criação de uma leadpages para ONG 'Produzindo Alegria' durante o curso de front-end da Gama Academy.</p>",
     "languages": "CSS e HTML",
+    "image": "https://user-images.githubusercontent.com/38961741/183268426-515cc0d4-9e28-4e21-a93f-4860dd804884.png",
     "url": "https://github.com/miilacg/ong-produzindoAlegria",
     "publishedAt": "2020-02-14 16:35:40"
   },
@@ -14,6 +15,7 @@ export const projetos = [
     "title": "Moveit",
     "description": "<p>O move.it é um app que une a técnica de Pomodoro com a realização de exercícios físicos para quem passa muito tempo na frente do computador.</p><p>Esse projeto foi desenvolvido durante a trilha de React, na quarta edição da NLW.</p>",
     "languages": "React com TypeScript e CSS",
+    "image": "https://user-images.githubusercontent.com/38961741/183268773-cdd6122f-8925-4835-af60-2e8eb017df47.png",
     "url": "https://miilacg-moveit-n6ca2thbs-miilacg.vercel.app/",
     "publishedAt": "2021-02-27 16:35:40"
   },
@@ -63,6 +65,7 @@ export const projetos = [
     "title": "Jogo da velha",
     "description": "<p>Jogo da velha em React.</p>",
     "languages": "React com JavaScript, HTML e CSS",
+    "image": "https://user-images.githubusercontent.com/38961741/183268828-5d2ed2b1-ff05-454d-ac9d-ccacb8c12eea.png",
     "url": "https://github.com/miilacg/jogoDaVelha",
     "publishedAt": "2021-06-11 15:11:40"
   },
