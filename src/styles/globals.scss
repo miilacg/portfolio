@@ -8,7 +8,9 @@
 
 
   --alturaLogo: 4.4375rem;
+  --alturaLogoMobile: 3.0625rem;
   --alturaFooter: 4.5rem;
+  --alturaFooterMobile: 3.1rem;
 }
 
 * {
@@ -49,11 +51,36 @@ main {
   margin-bottom: var(--alturaFooter);
   padding-top: 3.6875rem;
   padding-left: 4.4%;
-  padding-right: 4.4%;  
+  padding-right: 4.4%;
+
+  overflow-y: auto;
 }
 
 @media (min-width: 1400px) {
   html {
     font-size: 106.25%; //17px
+  }
+}
+
+@media (max-width: 850px) {
+  main {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}
+
+@media (max-width: 600px) {
+  main {  
+    height: calc(100vh - var(--alturaLogoMobile) - var(--alturaFooterMobile));
+  
+    margin-top: var(--alturaLogoMobile);
+    margin-bottom: var(--alturaFooterMobile);
+  }
+}
+
+@media (max-width: 500px) {
+  main {
+    padding-left: 8%;
+    padding-right: 8%;
   }
 }
