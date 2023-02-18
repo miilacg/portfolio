@@ -15,7 +15,7 @@ export default function Curriculo() {
         <div className={ styles.card }>
           <Typography variant='h2'>Experiência</Typography>
           <TopicoCurriculo 
-            subtitle="Analista de sistemas júnior"
+            subtitle="Analista de sistemas"
             date="2022 - atual | Dr. TIS"
             description=''
           />

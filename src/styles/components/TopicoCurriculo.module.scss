@@ -34,3 +34,27 @@
   left: 0rem;
   background-color: var(--roxo);
 }
+
+@media (max-width: 500px) {
+  .topico {
+    padding: 0.5rem 0 .5rem 2rem;
+    
+    i {
+      margin-right: .6rem;
+      font-size: 13px;
+    }
+  }
+
+  .topico::before {
+    width: .6875rem;
+    height: .6875rem;
+    top: .75rem;
+    left: -.4rem;
+  }
+
+  .topico::after {
+    width: 1.125rem;
+    top: 1.15rem;
+    left: 0rem;
+  }
+}

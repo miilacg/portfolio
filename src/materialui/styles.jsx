@@ -67,7 +67,11 @@ const h2 = {
   color: text,
   fontSize: '2.1875rem',
   fontWeight: '700',  
-  letterSpacing: '0.05em'
+  letterSpacing: '0.05em',
+
+  '@media (max-width: 500px)': {
+    fontSize: '1.7rem'
+  }
 };
 
 const h3 = {
@@ -78,7 +82,11 @@ const h3 = {
   fontFamily: "'IBM Plex Sans', sans-serif",
   fontSize: '1.5rem',
   fontWeight: '600',
-  lineHeight: '1.3'
+  lineHeight: '1.3',
+
+  '@media (max-width: 500px)': {
+    fontSize: '1.125rem'
+  }
 };
 
 const h5 = {
@@ -87,7 +95,12 @@ const h5 = {
   textAlign: 'justify',
   color: text,
   fontSize: '1.125rem',
-  lineHeight: '1.5'
+  lineHeight: '1.5',
+
+  '@media (max-width: 500px)': {
+    fontSize: '.9rem',
+    lineHeight: '1.8'
+  }
 };
 
 const subtitle2 = {
@@ -98,7 +111,12 @@ const subtitle2 = {
   fontSize: '.9375rem',
   lineHeight: '1.3', 
   fontWeight: '400',
-  letterSpacing: '0.03em'
+  letterSpacing: '0.03em',
+
+  '@media (max-width: 500px)': {
+    margin: '.9rem 0 1rem',
+    fontSize: '.75rem'
+  }
 };
 
 
