@@ -59,3 +59,12 @@ main {
     font-size: 106.25%; //17px
   }
 }
+
+@media (max-width: 600px) {
+  main {  
+    height: calc(100vh - var(--alturaLogoMobile) - var(--alturaFooterMobile));
+  
+    margin-top: var(--alturaLogoMobile);
+    margin-bottom: var(--alturaFooterMobile);
+  }
+}

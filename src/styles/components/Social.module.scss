@@ -16,3 +16,27 @@
 
   color: var(--roxo);
 }
+
+@media (max-width: 600px) {
+  .social {
+    left: 1.5rem;
+    bottom: calc(var(--alturaFooterMobile) + 1.5rem);
+  }
+
+  .social .icon {
+    margin: .75rem 0 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .social {
+    left: 1.5rem;
+    bottom: calc(var(--alturaFooterMobile) + 1.5rem);
+  }
+
+  .social .icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: .625rem 0 0;
+  }
+}
