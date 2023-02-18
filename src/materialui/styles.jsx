@@ -18,7 +18,11 @@ const body1 = {
 
   fontFamily: "'IBM Plex Sans', sans-serif",
   color: text,
-  fontSize: '1.25rem'        
+  fontSize: '1.25rem',
+
+  '@media (max-width:500px)': {
+    fontSize: '1rem'
+  },  
 };
 
 const caption = {
@@ -45,7 +49,12 @@ const h1 = {
   fontFamily: "'IBM Plex Sans', sans-serif",
   fontSize: '3rem',
   fontWeight: '700',
-  letterSpacing: '0.05em'   
+  letterSpacing: '0.05em',
+
+  '@media (max-width: 500px)': {
+    margin: '0 auto 1.2rem',
+    fontSize: '1.8rem'
+  }
 };
 
 const h2 = {

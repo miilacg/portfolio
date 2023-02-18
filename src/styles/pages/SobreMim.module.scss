@@ -5,14 +5,15 @@
    transform: translate(0%, -50%);
 
    margin: auto;
-   padding-top: 0;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
 }
 
 .sobreMim img {
    width: auto;
-   height: auto;
-   max-width: 26.31625rem;
-   max-height: 28.75rem;
+   height: auto;   
+   max-width: 40%;
+   max-height: 100vh;
    margin: auto 0;
 }
 
@@ -27,4 +28,14 @@
 
 .sobreMim p:last-child {
    margin-bottom: 0;
+}
+
+@media (max-width: 850px) {
+   .sobreMim img {
+      display: none;
+   }
+
+   .sobreMim .texto {
+      margin: auto 0;
+   }
 }
