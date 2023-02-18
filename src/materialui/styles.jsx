@@ -27,6 +27,11 @@ const caption = {
   textAlign: 'center',
   color: cinza,
   fontSize: '.8125rem',
+
+  '@media (max-width:600px)': {
+    margin: '0 0 .2rem 0', 
+    fontSize: '.625rem'
+  },
 };
 
 const h1 = {

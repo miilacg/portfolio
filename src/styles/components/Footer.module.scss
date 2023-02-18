@@ -21,3 +21,9 @@
 .direitos {
    margin: 0;
 }
+
+@media (max-width: 600px) {
+   .footerBase {
+      height: var(--alturaFooterMobile);
+   }
+}
