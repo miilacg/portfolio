@@ -21,21 +21,27 @@ export const theme = createTheme({
   },    
 
   components: {
-    MuiLink: {
+    MuiContainer: {
+      styleOverrides: {
+        root: {
+          width: 'auto',
+          padding: 0,
+          display: 'flex !important',
+          flexDirection: 'column',
+        }
+      }
+    },
+
+    MuiMenuItem: {
       defaultProps: appStyles.link,
 
       styleOverrides: {
         root: {
+          color: appStyles.cinza,
           textDecoration: 'none',
           '&:focus': {      
             outline: 'none'
-          },
-          '&:first-child': {
-            margin: '0 .46875rem 0 0'
-          },
-          '&:last-child': {
-            margin: '0 0 0 .46875rem'
-          },            
+          },           
           '&:hover': {
             color: appStyles.laranja
           },            

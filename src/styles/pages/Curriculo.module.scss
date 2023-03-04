@@ -7,13 +7,13 @@
 .cards {
   display: flex;
 
-  .card:first-child {
-    margin-right: 1.375rem;
-  }
-
   .card {
     flex: 1;
-    padding: 0 2.25rem;    
+    padding: 0 2.25rem;
+    
+    &:first-child {
+      margin-right: 1.375rem;
+    }
   }
 }
 
@@ -28,10 +28,10 @@
 
     .card {
       margin-bottom: 2.5rem;  
-    }
 
-    .card:first-child {
-      margin-right: 0rem;
+      &:first-child {
+        margin-right: 0rem;
+      }
     }
   }
 }

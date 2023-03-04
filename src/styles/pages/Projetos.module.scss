@@ -87,3 +87,25 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .mainProjects {  
+    section .project {  
+      .description {      
+        p {
+          margin-bottom: 0;  
+          font-size: .95rem;
+        }
+
+        .tech {
+          margin: 0.5rem 0 1.44rem;
+        }
+  
+        a {
+          font-size: 1rem;
+          line-height: 1.3rem;
+        }
+      }
+    }
+  }
+}
