@@ -47,15 +47,15 @@ export default function Header() {
             <MenuSharpIcon />
           </IconButton>
           <Menu
-            className={ styles.linksMenu }
+            className={styles.linksMenu}
             anchorEl={anchorEl}
             open={open}
             onClose={handleClose}
           >
-            <MenuItem><Link href='/'>HOME</Link></MenuItem>
-            <MenuItem><Link href='/SobreMim'>SOBRE</Link></MenuItem>
-            <MenuItem><Link href='/Curriculo'>CURRÍCULO</Link></MenuItem>
-            <MenuItem><Link href='/Projetos'>PROJETOS</Link></MenuItem>
+            <MenuItem onClick={handleClose}><Link href='/'>HOME</Link></MenuItem>
+            <MenuItem onClick={handleClose}><Link href='/SobreMim'>SOBRE</Link></MenuItem>
+            <MenuItem onClick={handleClose}><Link href='/Curriculo'>CURRÍCULO</Link></MenuItem>
+            <MenuItem onClick={handleClose}><Link href='/Projetos'>PROJETOS</Link></MenuItem>
             {/*<MenuItem><Link href="/Contato">CONTATO</Link></MenuItem>*/}
           </Menu>
         </div>
