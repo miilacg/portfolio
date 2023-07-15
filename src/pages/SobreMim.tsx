@@ -13,21 +13,14 @@ export default function SobreMim() {
         <Typography variant='h1'>Olá</Typography>
         
         <Typography variant='body1'>
-          Tenho 26 anos, sou formada em Ciência da Computação 
-          pela UFV e apaixonada por tecnologia.
+          Tenho 27 anos, sou formada em Ciência da Computação 
+          pela UFV, pós graduanda em Engenharia de Software pela PUC Minas
+          e atualmente trabalho como analista de sistema na Dr. TIS.
         </Typography>
         <Typography variant='body1'>
           Minha paixão pelo desenvolvimento web deu inicio quando comecei a 
           implementar meu trabalho de conclusão de curso. Depois eu me especializei 
-          mais na área fazendo um curso de Front-end na Gama.
-        </Typography>
-        <Typography variant='body1'>
-          Eu posso transformar seu negócio em um site, representando sua marca de 
-          maneira inteligente e um ótimo relacionamento com os clientes.
-        </Typography>
-        <Typography variant='body1'>
-          Se você possui um negócio ou uma ideia, entre em contato, tenho certeza 
-          que podemos fazer algo incrível.
+          mais na área fazendo um curso de Front-end na Gama e a pós graduação.
         </Typography>
       </div>
     </main> 
