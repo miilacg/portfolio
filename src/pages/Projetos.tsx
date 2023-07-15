@@ -65,9 +65,7 @@ export default function Projetos() {
                             <strong style={{ marginRight: '.2rem' }}>Linguagens e tecnologias utilizadas:  </strong> { project.languages }.
                           </Typography>
                           
-                          <Link href={ project.url }>
-                            <a> Visite o site </a>
-                          </Link>
+                          <a href={ project.url } target='_blank'> Visite o site </a>
                         </div> 
                         
                         { !isSmall && project.image && (
